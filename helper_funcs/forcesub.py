@@ -12,7 +12,7 @@ async def ForceSub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="Access Denied ⚠. Contact my [Support Group](https://t.me/TeleRoid14).",
+                text="Access Denied ⚠. Contact my [Support Group](https://t.me/+cZVEXHZXll8zYjll).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -24,7 +24,7 @@ async def ForceSub(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url="https://t.me/TeleRoidGroup")
+                        InlineKeyboardButton("🤖 Join Updates Channel", url="https://t.me/+cZVEXHZXll8zYjll")
                     ]
                 ]
             ),
